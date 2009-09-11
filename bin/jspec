@@ -9,7 +9,7 @@ require 'bind'
 require 'fileutils'
 require 'server/server'
 
-RHINO = 'java org.mozilla.javascript.tools.shell.Main'
+RHINO = 'rhino'
 
 program :name, 'JSpec'
 program :version, '2.11.1'
